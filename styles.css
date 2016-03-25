@@ -1,0 +1,37 @@
+body {
+    background-color: lightgrey;
+}
+
+h1 {
+    color: blue;
+    font-family: courier;
+    font-size: :233%;
+}
+
+p {
+    color:green;
+    border:2px solid red;
+    padding:23px;
+    margin:33px;
+}
+#p01{
+	color:yellow;
+}
+table,th,td{
+	border:2px solid black;
+	border-collapse:collapse;
+	text-align:center;
+}
+th,td{
+	padding:13px;
+}
+table#t01 tr:nth-child(even) {
+    background-color:#CCE6FF;
+}
+table#t01 tr:nth-child(odd) {
+   background-color:#FFCCE6;
+}
+table#t01 th	{
+    background-color: black;
+    color: white;
+}
